@@ -22,7 +22,7 @@ export default function Home() {
     <>
       <div className="hidden md:block my-0 mx-auto w-[70%] text-center">
         <Image src={shrug} alt="unavailable image" width={200} height={200} className="w-full" />
-        <p className="text-gray-500">Oops! This page can't be viewed on large screens, try opening it with your mobile device instead!</p>
+        <p className="text-gray-500">Oops! This page can&apos;t be viewed on large screens, try opening it with your mobile device instead!</p>
       </div>
       <main className="md:hidden my-5">
         <Header />
