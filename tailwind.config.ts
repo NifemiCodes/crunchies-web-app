@@ -27,11 +27,4 @@ const config: Config = {
   plugins: [],
 };
 
-/*
---red: #ef2206;
---redT: #ef210612;
---paleRedT: #e90c3123;
---paleRed: #e90c31;
-   */
-
 export default config;

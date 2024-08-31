@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import burgerIcon from "../images/burger-icon.png";
 import pizzaIcon from "../images/pizza-icon.png";
@@ -11,7 +9,7 @@ const Category = ({ image, title }: Card) => {
   return (
     <div className="flex items-center gap-1 p-2 rounded-[50px] bg-lightGrey text-[14px] min-w-max focus:bg-red focus:text-white">
       <Image src={image} alt="icon" width={24} height={24} />
-      <p>{title}</p>
+      <p className="font-normal select-none">{title}</p>
     </div>
   );
 };

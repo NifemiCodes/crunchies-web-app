@@ -20,8 +20,8 @@ export type Card = {
 export default function Home() {
   return (
     <>
-      <div className="hidden md:block my-0 mx-auto w-[70%] text-center">
-        <Image src={shrug} alt="unavailable image" width={200} height={200} className="w-full" />
+      <div className="hidden md:block my-0 mx-auto w-[55%] h-[150px] text-center">
+        <Image src={shrug} alt="unavailable image" width={200} height={50} className="w-full" />
         <p className="text-gray-500">Oops! This page can&apos;t be viewed on large screens, try opening it with your mobile device instead!</p>
       </div>
       <main className="md:hidden my-5">

@@ -16,7 +16,7 @@ const AddButton = () => {
   };
 
   return count > 0 ? (
-    <div className="bg-red h-7 rounded-[5px] text-white flex overflow-hidden">
+    <div className="bg-red h-[28px] rounded-[5px] text-white flex overflow-hidden">
       <button className="flex-1 border-r border-r-whiteT border-solid flex items-center justify-center active:bg-blackT" onClick={decrement}>
         <Image src={minus} alt="icon" width={8} height={8} />
       </button>
@@ -28,7 +28,7 @@ const AddButton = () => {
       </button>
     </div>
   ) : (
-    <button className="text-[12px] text-red border border-red border-solid rounded-[5px] p-[5px]" onClick={increment}>
+    <button className="text-[12px] text-red border border-red border-solid rounded-[5px] p-[4px]" onClick={increment}>
       Add to bag
     </button>
   );

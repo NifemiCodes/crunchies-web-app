@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   keywords: "Crunchies, food, order, app, web app",
 };
 
-const dmSans = DM_Sans({ subsets: ["latin"], weight: ["300", "500", "700"] });
+const dmSans = DM_Sans({ subsets: ["latin"], weight: ["400", "500", "700"] });
 
 function RootLayout({ children }: { children: React.ReactNode }) {
   return (
