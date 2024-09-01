@@ -13,11 +13,7 @@ export default async function Image() {
   return new ImageResponse(
     (
       <div style={{ width: "692px", height: "692px" }}>
-        <img
-          src="C:\Users\aking\OneDrive\Desktop\Kotafuz Internship\crunchies-nextjs\images\og-image-white.png"
-          alt="Crunchies Logo"
-          style={{ width: "100%", height: "100%" }}
-        />
+        <img src="/og-image-white.png" alt="Crunchies Logo" style={{ width: "100%", height: "100%" }} />
       </div>
     ),
     {
