@@ -1,5 +1,4 @@
 import { ImageResponse } from "next/og";
-const path = require("path");
 
 export const runtime = "edge";
 
@@ -10,12 +9,15 @@ export const size = {
   height: 630,
 };
 
-const imagePath = path.join(process.cwd(), "images/og-image-white.png");
 export default async function Image() {
   return new ImageResponse(
     (
       <div style={{ width: "692px", height: "692px" }}>
-        <img src={imagePath} alt="Crunchies Logo" style={{ width: "100%", height: "100%" }} />
+        <img
+          src="C:\Users\aking\OneDrive\Desktop\Kotafuz Internship\crunchies-nextjs\images\og-image-white.png"
+          alt="Crunchies Logo"
+          style={{ width: "100%", height: "100%" }}
+        />
       </div>
     ),
     {
