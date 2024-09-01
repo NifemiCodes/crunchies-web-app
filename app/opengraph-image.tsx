@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-import path from "path";
+const path = require("path");
 
 export const runtime = "edge";
 
