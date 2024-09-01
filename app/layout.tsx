@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   title: "Crunchies",
   description: "A clone of the crunchies food ordering app",
   keywords: "Crunchies, food, order, app, web app",
+  metadataBase: new URL("https://crunchies-web-app.vercel.app/"),
+  openGraph: {
+    images: {
+      url: "/og-image-white.png",
+      width: 692,
+      height: 692,
+    },
+  },
 };
 
 const dmSans = DM_Sans({ subsets: ["latin"], weight: ["400", "500", "700"] });
